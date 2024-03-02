@@ -1,0 +1,883 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+/* Primary Tag */
+span {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+button {
+    width: 174px;
+    height: 52px;
+    padding-top: 10px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* This is header Section  */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 53px;
+
+}
+
+.nav-image {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-image img {
+    width: 48px;
+    height: 56.008px;
+}
+
+.nav-image h1 {
+    margin-left: 20px;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-menu li {
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-menu li a:hover {
+    color: #FF5400;
+}
+
+.travel-all {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 20%;
+}
+
+.travel-text {
+    text-align: center;
+}
+
+.travel-text h1 {
+    font-size: 64px;
+    font-weight: 800;
+
+}
+
+.travel-text p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 676px;
+
+}
+
+.travel-selection {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.travel-selection .input-button1 {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 0px 10px;
+    padding-right: 10px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+
+}
+
+.button i {
+    width: 24px;
+    height: 24px;
+    /* padding-right:5px; */
+    text-align: center;
+}
+
+
+
+/*  This is popular tour place section */
+.popular-tour {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+
+}
+
+.tour-text h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.tour-text ul>li,
+.tour-text p {
+    width: 577px;
+    padding: 24px 50px 24px 0px;
+
+}
+
+.tour-text ul>li {
+    width: 525px;
+    margin-left: 25px;
+}
+
+.tour-img img {
+    width: 540px;
+    height: 550px;
+}
+
+/*This is all place visiting section */
+.destination-text {
+    text-align: center;
+    margin: 100px 0px 150px 35%;
+    height: 20px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.destination-text h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px 0px;
+}
+
+.destination-text p {
+    padding: 10px 0px;
+}
+
+.destination-all-images {
+    
+    margin-left: 300px;
+    margin-right: 200px;
+
+}
+
+.two-img-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 10px;
+    margin: 0px 100px;
+}
+
+.maldives img {
+    max-width: 573px;
+    max-height: 300px;
+}
+
+.indonesia img {
+    width: 573px;
+    height: 300px;
+}
+
+
+.srilanka img {
+    width: 374px;
+    height: 286px;
+}
+
+.north-america img {
+    width: 474px;
+    height: 286px;
+}
+
+
+.kashmir img {
+    width: 274px;
+    height: 286px;
+}
+
+
+.bangladesh img {
+    width: 473px;
+    height: 300px;
+}
+
+.bandarban img {
+    width: 673px;
+    height: 300px;
+}
+
+.maldives,
+.indonesia,
+.srilanka,
+.north-america,
+.kashmir,
+.bangladesh,
+.bandarban {
+    position: relative;
+}
+
+.maddile-text {
+
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    bottom: 0;
+    color: white;
+}
+
+.two-img-1 img {
+    padding: 10px 0px;
+}
+
+.three-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-right: 50px;
+    margin-left: 55px;
+}
+
+.three-img img {
+    padding: 10px 0px;
+   margin-left: 30px;
+}
+
+.two-img-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 90px;
+    margin-right: 120px;
+}
+
+.two-img-2 img {
+    padding: 10px 0px;
+}
+
+/* This Why Choose us Section  */
+
+.choose-text {
+    text-align: center;
+    margin: 100px 0px 150px 35%;
+    height: 20px;
+    width: 500px;
+}
+
+.choose-text h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 30px 0px;
+    /* 162.5% */
+}
+
+.choose-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.choose-form h3 {
+    padding: 10px 0px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.choose-form img {
+    margin-bottom: 10px;
+}
+
+.choose-form .choose-form-1 {
+    width: 573px;
+    height: 184px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-left: 50px;
+    margin-top: 48px;
+    padding: 32px 48px;
+}
+
+
+.choose-form .choose-form-2 {
+    width: 573px;
+    height: 184px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-top: 48px;
+    padding: 32px 48px;
+}
+
+.choose-form .choose-form-3 {
+    width: 573px;
+    height: 184px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-top: 48px;
+    padding: 32px 48px;
+    margin-right: 55%;
+}
+
+/* This is Deal Discount Section */
+.deal-text {
+    text-align: center;
+    margin: 100px 0px 150px 35%;
+    height: 20px;
+    width: 500px;
+}
+
+.deal-text h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 10px;
+    /* 162.5% */
+}
+
+
+.deal-discount {
+    margin-bottom: 100px;
+}
+
+.deal-manu {
+    background-image: url(./Images/Group\ 39.png);
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.deal-manu-text {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    float: right;
+    margin: 50px 20px 120px 0px;
+    padding: 8px 50px;
+
+}
+
+.deal-manu-text .deal-icon p {
+    display: inline-block;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 10px;
+}
+
+.deal-manu-text .deal-icon i {
+    color: #FF5400;
+    padding-top: 50px;
+}
+
+.deal-manu-text h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 10px 0px;
+}
+
+.deal-manu-text p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 5px;
+    padding-right: 150px;
+}
+
+.deal-manu-text h4 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 0px;
+}
+
+.deal-manu-text button {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+
+
+.deal-manu1 {
+    background-image: url(./Images/Group\ 40.png);
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.deal-manu-text1 {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    float: left;
+    margin: 4% 0px 8px 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+
+}
+
+.deal-manu-text1 .deal-icon1 p {
+    display: inline-block;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 10px;
+}
+
+.deal-manu-text1 .deal-icon1 i {
+    color: #FF5400;
+    padding-top: 50px;
+}
+
+.deal-manu-text1 h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 10px 0px;
+}
+
+.deal-manu-text1 p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 5px;
+    padding-right: 150px;
+}
+
+.deal-manu-text1 h4 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 0px;
+}
+
+.deal-manu-text1 button {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.deal-discount .spacial-button button {
+    text-align: center;
+    margin-left: 50%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 0px;
+
+}
+
+
+/* This is parfect place section */
+
+.parfect-place {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 300px;
+}
+
+.place-text h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    width: 448px;
+    padding-bottom: 5px;
+}
+
+.place-text p {
+    width: 532px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 10px 0px;
+    /* 162.5% */
+}
+
+.place-text p>ul>li {
+    width: 518px;
+
+
+}
+
+.place-text p>ul>li b {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+
+
+    /* 162.5% */
+}
+
+.place-video img {
+    width: 610px;
+    height: 424px;
+}
+
+.place-video {
+    position: relative;
+}
+
+.place-video .video-text {
+    position: absolute;
+    color: white;
+    bottom: 190px;
+    left: 100px;
+    right: 100px;
+    text-align: center;
+
+}
+
+
+
+/* This is newsletter Section */
+.newsletter {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.news-from {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px 40px;
+}
+
+.news-from h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.news-from p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.news-from form {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.news-from form input {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 20px 0px;
+    border: none;
+    padding-left: 20px;
+}
+
+.news-from button {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.news-img {
+    position: relative;
+}
+
+.news-img .news-over {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    bottom: 13%;
+    left: 50%;
+    position: absolute;
+}
+
+.news-over h5 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+
+.news-over h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    padding-left: 40px;
+}
+
+/* This is Footer Section  */
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 50px;
+    padding-top: 5%;
+}
+
+.footer-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-header .footer-logo {
+    display: flex;
+
+}
+
+.footer-header .footer-logo img {
+    width: 40px;
+    height: 46.673px;
+    flex-shrink: 0;
+}
+
+.footer-header .footer-logo h1 {
+    padding-left: 20px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-header p {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0;
+    width: 769px;
+    /* 162.5% */
+}
+
+.footer-header .footer-social i {
+    font-size: 26px;
+    padding: 5px 20px;
+}
+
+.footer-header hr {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 30px 0px;
+}
+
+.footer-end p {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    button {
+        width: 120px;
+        height: 36px;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .travel-all {
+
+        width: 600px;
+        height: 550px;
+        border-radius: 8px;
+        margin: 25px 10%;
+    }
+
+    .travel-text h1 {
+        font-size: 32px;
+        font-weight: 400;
+
+    }
+
+    .travel-text p {
+
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 13px;
+        width: 376px;
+    }
+
+    .travel-selection {
+        padding: 8px;
+        gap: 12px;
+        border-radius: 4px;
+        background: rgba(255, 255, 255, 0.30);
+    }
+
+    .travel-selection .input-button1 {
+        width: 120px;
+        height: 36px;
+    }
+
+    .popular-tour {
+        flex-direction: column;
+    }
+
+    .two-img-1 {
+        flex-direction: column;
+    }
+
+    .three-img {
+        flex-direction: column;
+    }
+
+    .two-img-2 {
+        flex-direction: column;
+    }
+
+    .choose-form {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .deal-manu {
+        width: 600px;
+        height: 250px;
+
+
+    }
+
+    .two-img-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .three-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .two-img-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .parfect-place{
+        flex-direction: column;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    
+
+    
+
+
+}
